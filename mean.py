@@ -6,7 +6,9 @@ sum = 0
 n = 0
 
 # Sum the input.
-for num in open('data_2.txt'):
+
+file_name = "data_2.txt"
+for num in open(file_name):
     sum += float(num)
     n += 1
     
