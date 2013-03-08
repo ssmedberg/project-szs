@@ -7,7 +7,7 @@ n = 0
 
 # Sum the input.
 file_name = "data.txt"
-for num in open(data.txt):
+for num in open('data.txt'):
     sum += float(num)
     n += 1
     
